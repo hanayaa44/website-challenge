@@ -78,39 +78,61 @@ body{
  }
  h1{
 	font-weight: bold;
+	color: hsl(209, 33%, 12%);
  }
  .support p{
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 15px;
+	
 }
 .form form{
 	padding-top: 30px;
+	padding-bottom: 70px;
 	
 }
 .ilustrasi img{
-    width: 600px;
+    width: 650px;
+	height: 400px;
+	padding-left: 40px;
+	padding-bottom: 60px;
 }
 .navigasi a:first-child{
-	padding-left: 340px;
+	padding-left: 300px;
 }
 input[type=email]{
-	background: white;
-	border-color: gainsboro;
-	width: 50%;
+	color:hsl(223, 100%, 88%);
+	width: 55%;
 	height: 47px;
-	color:hsl(0, 0%, 59%);
+	margin-left: 50px;
 	border-radius: 30px;
-	outline: none;
+	background-color: white;
+	padding-left: 10px;
+	border: 1px solid  hsl(223, 100%, 88%);
+	
+	
+}
+input[type=button]{
+	background-color:hsl(223, 87%, 63%);
+	width: 20%;
+	border-radius: 40px;
+	height: 50px;
+	margin-left: 10px;
+	border: 0;
+	color: white;
+	box-shadow:   5px 10px 18px  hsl(223, 100%, 88%);
 }
 
 
 .navigasi img{
 	width: 30px;
 	height: 30px;
+	padding-left: 10px;
 }
 .footer{
 	color: hsl(0, 0%, 59%);
 	text-align: center;
+	padding-top: 25px;
+	padding-left: 20px;
 }
 span{
 	color: hsl(0, 0%, 59%);
